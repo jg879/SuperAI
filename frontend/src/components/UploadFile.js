@@ -24,7 +24,7 @@ const UploadFile = ({ setFilePath }) => {
     console.log("Uploading file:", file); // Track file being uploaded
 
     try {
-      const response = await axios.post("http://localhost:5000/upload", formData, {
+      const response = await axios.post(`${process.env.REACT_APP_URL}/upload`, formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       console.log("Backend response:", response.data); // Log response from backend

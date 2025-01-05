@@ -22,7 +22,7 @@ const QueryInput = ({ setResults, fileUploaded, setColumns}) => {
       setLoading(true); // Set loading state to true
       setIsTyping(false); // Reset typing state
       setSqlQuery("");
-      const response = await axios.post("http://localhost:5000/generate", {
+      const response = await axios.post(`${process.env.REACT_APP_URL}/generate`, {
         prompt: query,
         tableName, // Pass the table name
       });
