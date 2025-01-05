@@ -1,0 +1,11 @@
+User_ID,User_Name,Email,Age,Country,Subscription_Status,Sign_Up_Date
+1,JohnDoe,johndoe@example.com,28,USA,Active,2022-05-14
+2,JaneSmith,janesmith@example.com,34,Canada,Inactive,2021-08-21
+3,BobBrown,bobbrown@example.com,22,UK,Active,2023-01-10
+4,AliceWhite,alicewhite@example.com,29,Australia,Active,2022-11-05
+5,CharlieBlack,charlieblack@example.com,40,USA,Inactive,2020-12-01
+6,DianaGreen,dianagreen@example.com,31,Canada,Active,2022-09-15
+7,EricBlue,ericblue@example.com,36,UK,Active,2023-02-20
+8,FrankYellow frankyellow@example.com,26,Australia,Inactive,2021-07-30
+9,GracePink,gracepink@example.com,38,USA,Active,2022-03-12
+10,HenryGray,henrygray@example.com,45,Canada,Inactive,2020-10-09
