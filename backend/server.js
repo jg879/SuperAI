@@ -7,7 +7,14 @@ require("dotenv").config(); // Load environment variables from .env
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const app = express();
-app.use(cors());
+
+  
+  app.use(
+    cors({
+      origin: "*",
+    })
+  );
+  
 app.use(express.json());
 
 // Initialize DuckDB
@@ -128,7 +135,9 @@ async function startServer() {
 
         // Routes
         app.use("/upload", fileUploadRoutes);
-
+        app.get("/health",(req,res)=>{
+            res.status(200).json({message:"Server is running"})
+        })
         const PORT = process.env.PORT || 5000
         app.listen(PORT, () => {
             console.log(`Server running on http://localhost:${PORT}`);
