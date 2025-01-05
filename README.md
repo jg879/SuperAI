@@ -5,9 +5,12 @@ DuckAI is a cutting-edge platform developed to demonstrate the integration of Du
 ## Frontend: React, TailwindCSS
 ## Backend: Node.js, Express.js
 ## Database: DuckDB
+
+### URL - https://super-ai-zh1s.vercel.app/
 This combination of technologies ensures a seamless user interface and robust backend support, making DuckAI an ideal demonstration of modern web development and database management.
 
 ![image](https://github.com/user-attachments/assets/2c925205-5604-47cc-b200-2d9280535e1e)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/83b49b0b-9119-42f9-a63f-99271ec69027)
+
 
